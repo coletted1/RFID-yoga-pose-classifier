@@ -1,0 +1,48 @@
+{
+  "model": "SVM (RBF)",
+  "classes": [
+    "armsdown",
+    "armsmiddle",
+    "armsup",
+    "lefthandup",
+    "righthandup"
+  ],
+  "feature_cols": [
+    "11111111_rssi_mean",
+    "11111111_rssi_std",
+    "11111111_rssi_min",
+    "11111111_rssi_max",
+    "11111111_rssi_range",
+    "11111111_rssi_iqr",
+    "11111111_rssi_skew",
+    "11111111_rssi_kurt",
+    "11111111_read_rate",
+    "11111111_phase_mean",
+    "11111111_phase_std",
+    "11111111_phase_range",
+    "11111111_phase_sin_mean",
+    "11111111_phase_cos_mean",
+    "1A0F0778_rssi_mean",
+    "1A0F0778_rssi_std",
+    "1A0F0778_rssi_min",
+    "1A0F0778_rssi_max",
+    "1A0F0778_rssi_range",
+    "1A0F0778_rssi_iqr",
+    "1A0F0778_rssi_skew",
+    "1A0F0778_rssi_kurt",
+    "1A0F0778_read_rate",
+    "1A0F0778_phase_mean",
+    "1A0F0778_phase_std",
+    "1A0F0778_phase_range",
+    "1A0F0778_phase_sin_mean",
+    "1A0F0778_phase_cos_mean"
+  ],
+  "canonical_tags": [
+    "111111111111111111111111",
+    "111111111111111111111112",
+    "1A0F0778EF09A53072D24C63"
+  ],
+  "window_sec": 2.0,
+  "step_sec": 1.0,
+  "test_accuracy": 0.8194
+}
